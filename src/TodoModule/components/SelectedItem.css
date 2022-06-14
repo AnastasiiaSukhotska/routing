@@ -1,0 +1,37 @@
+.selected-item-container {
+    padding: 20px;
+}
+
+.selected-item-title {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 20px;
+    outline: none;
+    border: none;
+}
+.selected-item-title:focus, .selected-item-description:focus {
+    outline: 1px solid #999;
+    border-radius: 10px;
+    color: black;
+}
+
+.unselected-screen {
+    margin-top: 40vh;
+    margin-left: 25vw;
+    font-weight: bold;
+    font-size: 60px;
+    color: #999;
+}
+
+.unselected-sign {
+   
+    display: none;
+}
+.selected-item-description {
+    height: 200px;
+    width: 60vw;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
